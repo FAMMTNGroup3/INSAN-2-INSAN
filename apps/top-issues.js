@@ -2,6 +2,8 @@
 
 
 let raised = 0;
+let raised1= 0;
+let raised2= 0;
 
 //getting Doanation for Schools
 let getdonationButton = document.getElementById('donateSc');
@@ -14,7 +16,8 @@ getdonationButton.addEventListener('click', donationsCounter);
 
 function donationsCounter(event) {
     event.preventDefault();
-    raised = raised + 5;
+    let donate = parseInt(Sc.value);
+    raised = raised + donate;
     newCounter.textContent = 'Amount raised ' + raised + '$';
     alert('Thank you for your Donations');
 }
@@ -28,8 +31,9 @@ getFoodDonation.addEventListener('click', donationsCounter2);
 
 function donationsCounter2(event) {
     event.preventDefault();
-    raised = raised + 5;
-    newCounter2.textContent = 'Amount raised ' + raised + '$';
+    let donate1 = parseInt(food.value);
+    raised1 = raised1 + donate1;
+    newCounter2.textContent = 'Amount raised ' + raised1 + '$';
     alert('Thank you for your Donations');
 }
 
@@ -42,7 +46,8 @@ getSponserShip.addEventListener('click', donationCounter3);
 
 function donationCounter3(event) {
     event.preventDefault();
-    raised = raised + 5;
-    newcounter3.textContent = 'Amount  ' + raised + '$';
+    let donate2 = parseInt(Or.value);
+    raised2 = raised2 + donate2;
+    newcounter3.textContent = 'Amount  ' + raised2 + '$';
     alert('Thank you for your Donations');
 }
