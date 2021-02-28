@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>In Need</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <p>
+            If you need any help, we are here to help !
+        </p>
+
+        <p> Fill in the form below so that we can connect you with speciealized organization that will provide you the
+            sevices needed. Kindly note that all these information will be treated confidencially and will not be shared
+            unless you accept sharing
+        </p>
+
+        <fieldset>
+            <form id="in-need">
+                <label for="typeOfNeed">Type Of Need</label><br>
+                <select name="typeOfNeed" id="typeOfNeed">
+                    <option value="none"> None </option>
+                    <option value="education"> Education </option>
+                    <option value="health"> Health </option>
+                    <option value="livelihood"> Livelihood </option>
+                </select>
+
+                <br>
+                <br>
+
+                <label for="phone">Enter your phone number</label><br>
+                <input type="tel" id="phone" name="phone">
+
+                <br>
+                <br>
+
+                <label for="description"> Describe your need </label><br>
+                <textarea for="description" id="description" rows="5" cols="50" name="description"> </textarea>
+
+                <br>
+                <br>
+
+                <input type="checkbox" id="agree" name="agree" value="agree" required = "yes">
+                <label for="agree"> I agree to all terms and conditions and I guarantee all my information are true.</label>
+
+                <br>
+                <br>
+                
+                <input type="submit" value="Submit" id="submit">
+
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../apps/in-need.js"></script>
+</body>
+
+</html>
