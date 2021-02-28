@@ -46,5 +46,3 @@ function donationCounter3(event) {
     newcounter3.textContent = 'Amount  ' + raised + '$';
     alert('Thank you for your Donations');
 }
-
-localStorage.setItem()
