@@ -1,3 +1,4 @@
+
         #topIssues {
             display: inline;
         }
@@ -67,3 +68,77 @@
             transition: ease-in-out;
             padding: 9px;
         }
+
+
+*{font-family: 'Source Sans Pro', sans-serif;}
+
+h1 {
+    color: rgb(123, 196, 196);
+    text-align: center;
+}
+#connect{color: rgb(59, 123, 134);
+    
+}
+
+header{
+
+    background-image: url(../img/top-issues.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 450px;
+    
+}
+
+/* image{
+
+width: 200px;
+height:200px;
+object-fit: fill;
+} */
+
+
+
+#first-image{
+
+    /* background-image: url(../img/ngo.jpg); */
+    text-decoration: none;
+    text-shadow:2px 2px #1309a1 ;
+    padding: 100px;
+    color:rgb(123, 196, 196);
+   
+}
+
+#second-image{
+
+/* background-image: url(../img/support-oranizations.jpg); */
+text-decoration: none;
+text-shadow:2px 2px #cdccda ;
+padding: 100px;
+color: rgb(7, 4, 44);
+}
+
+#third-image{
+
+    /* background-image: url(../img/top-issues.jpg); */
+    text-decoration: none;
+    text-shadow:2px 2px #1309a1 ;
+    padding: 100px;
+    color:rgb(123, 196, 196);
+}
+
+nav ul li {
+
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+article{
+
+    margin-top: 100px;
+}
+
+body{
+
+    background-color: rgb(212, 212, 236);
+}
+
