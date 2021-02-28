@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> IN NEED FORM</title>
+</head>
+
+<body>
+    <header> <img src=""> </img>
+        <h3> Connect To Help !</h3>
+        <nav>
+            <ul>
+                <li> <a href="In-Need.html"> In Need</a> </li>
+                <li> <a href="Top-Issues.html"> Top Issues </a> </li>
+                <li> <a href="../index.html"> Home Page </a> </li>
+            </ul>
+        </nav>
+        <main>
+            <p> Register your non-profit organization to reach to people in need for your services ! </p>
+            <p> fill in the form below so that we can connect you with people in need to your services. this will help
+                your organization in the outreach process.</p>
+            <form action="" id="organizationsForm">
+                <fieldset>
+                    <legend> Organizations From </legend> <label for="orgName"> Organization Name </label>
+                    <input required='yes' type="text" id="orgName" name="orgName"></input>
+                    <label for="servicesType"> Services you provide </label>
+                    <select required='yes' id="servicesType" name="serviceType">
+                        <option value="education"> Education </option>
+                        <option value="health"> Health </option>
+                        <option value="wash"> Water, Sanitation and Hygiene (WASH) </option>
+                        <option value="shelter"> Shelter </option>
+                        <option value="livelihoods"> Livelihood </option>
+                        <option value="PsycologicalSupport"> Psychological Support</option>
+                        <option value="cashAssitant"> Cash Assitant </option>
+                    </select>
+                    <label for="location"> Organization Location </label>
+                    <input required='yes' type="text" id="location" name="location"></input>
+                    <label for="number"> Organization phone number </label>
+                    <input required='yes' id="number" name="ContactNumber" placeholder="phone number"
+                        type="tel"></input>
+                    <label for="orgDescription"> Brief Description about the Organization </label>
+                    <input required='yes' id="orgDescription" name="orgDescription" type="text"></input>
+                    <label for="email"> Organization Email Address</label>
+                    <input required='yes' type="email" id="email" name="Email"> </input>
+                    <label for="orgImg"> Organization Image </label>
+                    <input type="file" id="orgImg" name="orgImage"> </input>
+                    <label for="consent"> Kindly note that checking the box mean you agree to share your organization
+                        info with people in need in order to help them</label>
+                    <input required='yes' type="checkbox" id="consent" name="consent"> </input>
+
+                    <input type="submit" name="submit"> </input>
+                </fieldset>
+            </form>
+            <hr>
+            <p> Here you can find a list of all the organizations registered in our website </p> <br>
+            <ul id="availableOrg">
+                <li class='listedOrg'><img src="../img /logo (1).png" width="200px" height="200px"></img>
+                    <h2>Madrasati Initiative</h2>
+                    <p>Madrasati means “my school” in Arabic. The initiative was launched in 2008 to connect
+                        individuals, private companies and organizations, and provide them with support for improving
+                        the physical and educational learning environments of Jordan’s most neglected public schools.
+                        <!-- </p> <input class="sendButton" type="submit" value="Send your info to this organization"
+                        name="sendinfo"> </input> -->
+                </li>
+                <li class='listedOrg'><img src="../img /cropped-favicon.png" width="200px" height="200px"></img>
+                    <h2>International Medical Corps</h2>
+                    <p>International Medical Corps provides emergency relief to those struck by disaster, no matter
+                        where they are, no matter what the conditions, working with them to recover, rebuild, and gain
+                        the skills and tools required for self-reliance.</p>
+                    <!-- <input type="submit"
+                        value="Send your info to this organization" name="sendinfo"> </input> -->
+                </li>
+                <li class='listedOrg'> <img src="../img /logo (2).png" width="200px" height="200px"></img>
+                    <h2>Jordan River Foundation</h2>
+                    <p>Since its launch in 1997, the Jordan River Community Empowerment Program (JRCEP) has worked
+                        diligently to provide local community members with economic opportunities to improve their
+                        livelihoods and that of their families. JRCEP has benefited thousands of individuals and
+                        families by implementing programs and projects that empower communities to articulate their
+                        needs and facilitate their contribution to their own economic and social development.</p>
+                    <!-- <input
+                        type="submit" value="Send your info to this organization" name="sendinfo"> </input> -->
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p> Contact Info: insan2insan@####.com </p> &copy; <span>INSAN 2 INSAN - 2021 </span>
+        </footer>
+        <script src="../apps/all-org.js"></script>
+</body>
+
+</html>
