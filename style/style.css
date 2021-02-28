@@ -1,0 +1,69 @@
+        #topIssues {
+            display: inline;
+        }
+        
+        #firstIssue {
+            border-style: solid;
+            width: 25%;
+            text-align: center;
+            float: left;
+            margin-left: 10px;
+            height: 625.406px;
+        }
+        
+        #monthly-food-packges {
+            border-style: solid;
+            width: 25%;
+            text-align: center;
+            float: left;
+            margin-left: 10%;
+            height: 625.406px;
+        }
+        
+        #OrphanSponcir {
+            border-style: solid;
+            width: 25%;
+            text-align: center;
+            float: right;
+            margin-right: 5%;
+            height: 625.406px;
+        }
+        
+        .donationsSection {
+            height: 67.9062px;
+            width: 333.25px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .pargraph {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: ;
+        }
+        
+        .imgeclass {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        #donateSc:hover {
+            color: rgb(245, 245, 245);
+            background-color: #008CBA;
+            transition: ease-in-out;
+            padding: 9px;
+        }
+        
+        #donatefood:hover {
+            color: rgb(240, 240, 234);
+            background-color: #008CBA;
+            transition: ease-in-out;
+            padding: 9px;
+        }
+        
+        #donateOr:hover {
+            color: rgb(255, 255, 255);
+            background-color: #008CBA;
+            transition: ease-in-out;
+            padding: 9px;
+        }
