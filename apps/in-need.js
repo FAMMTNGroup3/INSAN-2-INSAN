@@ -20,8 +20,8 @@ function handleUserSubmit(event) {
     userAgree = document.getElementById("agree").checked;
     // console.log(userAgree);
    new InNeedUsers(typeOfNeed, phoneNo, description, userAgree);
-
 }
+
 // userSubmit.setAttribute("onclick", "this.disabled = true");
 
 function InNeedUsers(typeOfNeed, phoneNo, description, userAgree) {
