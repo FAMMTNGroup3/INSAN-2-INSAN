@@ -19,7 +19,7 @@ function handleUserSubmit(event) {
     // console.log(description);
     userAgree = document.getElementById("agree").checked;
     // console.log(userAgree);
-   new InNeedUsers(typeOfNeed, phoneNo, description, userAgree);
+    new InNeedUsers(typeOfNeed, phoneNo, description, userAgree);
 
    createOrganization();
 }

@@ -1,92 +1,92 @@
+#topIssues {
+    display: inline;
+}
 
-        #topIssues {
-            display: inline;
-        }
-        
-        #firstIssue {
-            border-style: solid;
-            width: 25%;
-            text-align: center;
-            float: left;
-            margin-left: 10px;
-            height: 625.406px;
-        }
-        
-        #monthly-food-packges {
-            border-style: solid;
-            width: 25%;
-            text-align: center;
-            float: left;
-            margin-left: 10%;
-            height: 625.406px;
-        }
-        
-        #OrphanSponcir {
-            border-style: solid;
-            width: 25%;
-            text-align: center;
-            float: right;
-            margin-right: 5%;
-            height: 625.406px;
-        }
-        
-        .donationsSection {
-            height: 67.9062px;
-            width: 333.25px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        
-        .pargraph {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            font-family: ;
-        }
-        
-        .imgeclass {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        
-        #donateSc:hover {
-            color: rgb(245, 245, 245);
-            background-color: #008CBA;
-            transition: ease-in-out;
-            padding: 9px;
-        }
-        
-        #donatefood:hover {
-            color: rgb(240, 240, 234);
-            background-color: #008CBA;
-            transition: ease-in-out;
-            padding: 9px;
-        }
-        
-        #donateOr:hover {
-            color: rgb(255, 255, 255);
-            background-color: #008CBA;
-            transition: ease-in-out;
-            padding: 9px;
-        }
+#firstIssue {
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    height: 625.406px;
+}
 
+#monthly-food-packges {
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-left: 10%;
+    height: 625.406px;
+}
 
-*{font-family: 'Source Sans Pro', sans-serif;}
+#OrphanSponcir {
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    float: right;
+    margin-right: 5%;
+    height: 625.406px;
+}
+
+.donationsSection {
+    height: 67.9062px;
+    width: 333.25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pargraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: ;
+}
+
+.imgeclass {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#donateSc:hover {
+    color: rgb(245, 245, 245);
+    background-color: #008CBA;
+    transition: ease-in-out;
+    padding: 9px;
+}
+
+#donatefood:hover {
+    color: rgb(240, 240, 234);
+    background-color: #008CBA;
+    transition: ease-in-out;
+    padding: 9px;
+}
+
+#donateOr:hover {
+    color: rgb(255, 255, 255);
+    background-color: #008CBA;
+    transition: ease-in-out;
+    padding: 9px;
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 h1 {
     color: rgb(123, 196, 196);
     text-align: center;
 }
-#connect{color: rgb(59, 123, 134);
-    
+
+#connect {
+    color: rgb(59, 123, 134);
 }
 
-header{
-
+header {
     background-image: url(../img/top-issues.jpg);
     background-repeat: no-repeat;
     background-size: 1400px 450px;
-    
 }
+
 
 /* image{
 
@@ -95,50 +95,40 @@ height:200px;
 object-fit: fill;
 } */
 
-
-
-#first-image{
-
+#first-image {
     /* background-image: url(../img/ngo.jpg); */
     text-decoration: none;
-    text-shadow:2px 2px #1309a1 ;
+    text-shadow: 2px 2px #1309a1;
     padding: 100px;
-    color:rgb(123, 196, 196);
-   
+    color: rgb(123, 196, 196);
 }
 
-#second-image{
-
-/* background-image: url(../img/support-oranizations.jpg); */
-text-decoration: none;
-text-shadow:2px 2px #cdccda ;
-padding: 100px;
-color: rgb(7, 4, 44);
+#second-image {
+    /* background-image: url(../img/support-oranizations.jpg); */
+    text-decoration: none;
+    text-shadow: 2px 2px #cdccda;
+    padding: 100px;
+    color: rgb(7, 4, 44);
 }
 
-#third-image{
-
+#third-image {
     /* background-image: url(../img/top-issues.jpg); */
     text-decoration: none;
-    text-shadow:2px 2px #1309a1 ;
+    text-shadow: 2px 2px #1309a1;
     padding: 100px;
-    color:rgb(123, 196, 196);
+    color: rgb(123, 196, 196);
 }
 
 nav ul li {
-
     display: inline-block;
     text-decoration: none;
     margin-top: 50px;
 }
 
-article{
-
+article {
     margin-top: 100px;
 }
 
-body{
-
+body {
     background-color: rgb(212, 212, 236);
 }
-
