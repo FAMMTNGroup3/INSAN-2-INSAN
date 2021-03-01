@@ -1,0 +1,107 @@
+
+    body{
+
+    background-color: rgb(181, 192, 212);
+    }
+   
+   #nihad {
+       
+       text-align: center;
+       margin-top: 10px;
+       margin-left: 30px;
+       height: 300px;
+       width: 30%;
+       display: inline-block;
+   }
+   
+   #mohammad {
+       
+       
+       text-align: center;
+       margin-top: 10px;
+       margin-left: 10px;
+       height: 300px;
+       width: 30%;
+       display: inline-block;
+   }
+   
+   #fatema {
+       
+       
+       text-align: center;
+       margin-top: 10px;
+       margin-left: 10px;
+       height: 300px;
+       width: 30%;
+       display: inline-block;
+       
+   }
+   
+   #tala {
+       
+       text-align: center;
+       margin-top: 30px;
+       margin-left: 30px;
+       height: 300px;
+       width: 45%;
+       display: inline-block;
+    }
+   
+   #ahmad {
+      
+      
+       text-align: center;
+       margin-top: 30px;
+       margin-left: 10px;
+       height: 300px;
+       width: 45%;
+       display: inline-block;
+   }
+   
+   .pg p{
+       margin-top: 10px;
+       margin-bottom: 10px;
+       margin-right: 10px;
+       margin-left:10p;
+       text-align: center;
+       width : 5%;
+       
+       /* text-shadow: 1px 1px; */
+       
+   }
+   
+   .image {
+       margin-top: 10px;
+       margin-bottom: 10px;
+       
+       /* margin-left: 100px ; */
+       /* float: left; */
+       
+   }
+   
+   .img:hover{
+   
+       transform: scale(1.25);
+   
+   }
+   
+   .pg:hover{
+       transform: scale(1.25);
+       color: cadetblue;
+   }
+
+   h1:hover{
+
+    transform: scale(1.25);
+    color: cadetblue;
+   }
+
+/* #US{
+display:inline-block;
+
+} */
+
+#top{
+
+    text-align: center;
+}
