@@ -24,7 +24,7 @@ Organization.prototype.sendInfoButton = function () {
 }
 new Organization("../img/logo (1).png", "Madrasati Initiative", "Location: Amman, Phone Number:(06) 461 2554, Email Address: info@madrasati.jo", 'education', 'Madrasati means “my school” in Arabic. The initiative was launched in 2008 to connectindividuals private companies and organizations and provide them with support for improving the physical and educational learning environments of Jordans most neglected public schools.');
 
-new Organization("../img/cropped-favicon.png", "International Medical Corps", "Location: Amman, Mafraq, Phone Number:+962 6 5530856/0779760678 , Email Address: pr@imc.com.jo", "health", 'International Medical Corps provdes emergenciy relief to those struck by disaster, no matterwhere they are, no matter what the conditions working with them to recover, rebuild, and gainthe skills and tools required for self-reliance. International Medical Corps provdes emergenciy relief to those struck by disaster, no matterwhere they are, no matter what the conditions working with them to recover, rebuild, and gainthe skills and tools required for self-reliance.');
+new Organization("../img/cropped-favicon.png", "International Medical Corps", "Location: Amman, Mafraq, Phone Number:+962 6 5530856/0779760678 , Email Address: pr@imc.com.jo", "health", 'International Medical Corps provdes emergenciy relief to those struck by disaster, no matterwhere they are, no matter what the conditions working with them to recover, rebuild, and gainthe skills and tools required for self-reliance.');
 
 new Organization("../img/logo (2).png", "Jordan River Foundation", ' Location: Amman, Phone Number:(06) 492 5096, Email Address: info@jrf.org.jo',"livelihood", "Since its launch in 1997, the Jordan River Community Empowerment Program (JRCEP) has worked diligently to provide local community members with economic opportunities to improve their livelihoods and that of their families. JRCEP has benefited thousands of individuals and families by implementing programs and projects that empower communities to articulate their needs and facilitate their contribution to their own economic and social development.");
 
@@ -57,7 +57,6 @@ function addOrganization(event) {
     new Organization(orgImage, orgName, ("Organization Location: " + orgLocation + ", Organization Phone Number: " + orgPhoneNumber + ", Organization Email Address: " + orgEmail), services, orgDescription);
     
     renderTheList();
-    setItem();
     window.alert("Thank you for registering in our website!\nThe organization details will appear down in the list");
 }
 
@@ -80,6 +79,7 @@ function getItem() {
 
 
 function renderTheList() {
+    setItem();
     let getUnorderdList = document.getElementById("availableOrg");
     getUnorderdList.textContent = '';
     for (let i = 0; i < organizationsList.length; i++) {
@@ -95,7 +95,7 @@ function renderTheList() {
         createImg.setAttributeNodeNS(createWidth);
         createWidth.value= '200px';
         createHight.value = '200px';
-       
+        
         
         let createH2ForName = document.createElement('h2');
         let createParaForDescription = document.createElement('p');
