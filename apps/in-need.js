@@ -50,10 +50,15 @@ for (let i=0 ; i< normal.length ; i++){
     
     let createList = document.createElement('li');
 
-        
-        let createImg = document.createElement('img');
-        let createSrc = document.createAttribute('src')
-        createImg.setAttributeNodeNS(createSrc)
+    let createImg = document.createElement('img');
+    let createSrc = document.createAttribute('src')
+    let createWidth = document.createAttribute('width');
+    let createHight = document.createAttribute('hight');
+    createImg.setAttributeNodeNS(createSrc);
+    createImg.setAttributeNodeNS(createHight);
+    createImg.setAttributeNodeNS(createWidth);
+    createWidth.value= '200px';
+    createHight.value = '200px';
         
         let createH2ForName = document.createElement('h2');
         let createParaForDescription = document.createElement('p');
