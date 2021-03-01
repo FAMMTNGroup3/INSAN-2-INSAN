@@ -12,7 +12,6 @@ function Organization(imagePath, name, info, services, description) {
 }
 
 
-
 Organization.prototype.sendInfoButton = function () {
     let createButton = document.createElement("input")
     let attribute = document.createAttribute("type")
@@ -24,6 +23,7 @@ Organization.prototype.sendInfoButton = function () {
     // console.log(createButton);}
 }
 
+getItem();
 let organizationsFrom = document.getElementById('organizationsForm')
 organizationsFrom.addEventListener('submit', addOrganization)
 
@@ -47,10 +47,10 @@ function addOrganization(event) {
     // createButton.setAttributeNodeNS(attribute)
     // getUnorderdList.appendChild(createButton)
     
-    new Organization(orgImage, orgName, ("Organization Location: " + orgLocation + ", Organization Phone Number: " + orgPhoneNumber + ", Organization Email Address: " + orgEmail), "Services Provided: " + services, orgDescription);
+    new Organization(orgImage, orgName, ("Organization Location: " + orgLocation + ", Organization Phone Number: " + orgPhoneNumber + ", Organization Email Address: " + orgEmail), services, orgDescription);
     
+    renderTheList();
     setItem();
-    
     window.alert("Thank you for registering in our website!\nThe organization details will appear down in the list");
 }
 
@@ -68,7 +68,7 @@ function getItem() {
         organizationsList = objectBack
     }   
 }
-getItem();
+
 
 
 
@@ -103,8 +103,8 @@ function renderTheList() {
     }
     
 }
-renderTheList();
 // renderTheList();
+renderTheList();
 
 
 
