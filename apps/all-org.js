@@ -50,6 +50,7 @@ function addOrganization(event) {
     new Organization(orgImage, orgName, ("Organization Location: " + orgLocation + ", Organization Phone Number: " + orgPhoneNumber + ", Organization Email Address: " + orgEmail), "Services Provided: " + services, orgDescription);
     
     setItem();
+    renderTheList();
     
     window.alert("Thank you for registering in our website!\nThe organization details will appear down in the list");
 }
@@ -68,12 +69,13 @@ function getItem() {
         organizationsList = objectBack
     }   
 }
-getItem();
 
+getItem();
 
 
 function renderTheList() {
     let getUnorderdList = document.getElementById("availableOrg");
+    
     for (let i = 0; i < organizationsList.length; i++) {
         
         let createList = document.createElement('li');
@@ -104,7 +106,6 @@ function renderTheList() {
     
 }
 renderTheList();
-// renderTheList();
 
 
 
