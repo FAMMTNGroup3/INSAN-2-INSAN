@@ -1,18 +1,16 @@
-
-
 function viewChart() {
 
     var ctx = document.getElementById('myChart').getContext('2d');
 
-        var myPieChart = new Chart(ctx, {
+    var myPieChart = new Chart(ctx, {
         type: 'pie',
 
-        data : {
+        data: {
 
             datasets: [{
                 data: [10, 20, 30],
-                
-                backgroundColor: ['green', "blue","red"],
+
+                backgroundColor: ['green', "blue", "red"],
                 borderColor: 'black',
             }],
 
@@ -29,14 +27,14 @@ viewChart();
 // function viewChart() {
 
 //     let ctx = document.getElementById('myChart').getContext('2d');
-  
+
 //     let chart = new Chart(ctx, {
 
 //       type: 'bar',
-  
+
 //     //   data: {
 //     //     labels:'ccc',
-  
+
 //     //     datasets: [
 //     //       {
 //     //         label: 'product votes',
@@ -44,7 +42,7 @@ viewChart();
 //     //         borderColor: '#1e212d',
 //     //         data: [5,6,7],
 //     //       },
-          
+
 //     //       {
 //     //         label: 'Product View',
 //     //         backgroundColor: 'red',
