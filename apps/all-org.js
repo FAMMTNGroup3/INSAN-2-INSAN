@@ -24,6 +24,7 @@ Organization.prototype.sendInfoButton = function () {
 }
 
 getItem();
+
 let organizationsFrom = document.getElementById('organizationsForm')
 organizationsFrom.addEventListener('submit', addOrganization)
 
@@ -104,7 +105,6 @@ function renderTheList() {
     
 }
 // renderTheList();
-renderTheList();
 
 
 
