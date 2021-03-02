@@ -1,9 +1,9 @@
-.mySlides {
-    display: none;
+.imgeclass img {
+    border-radius: 20px;
 }
 
-.containheder {
-    position: relative;
+.imgeclass img:hover {
+    transform: scale(1.2);
 }
 
 nav ul li a {
@@ -23,6 +23,8 @@ nav ul li {
     float: right;
     font-size: 10px;
     margin-right: 25px;
+    text-decoration: none;
+    list-style: none;
 }
 
 nav ul li a:hover {
@@ -59,221 +61,179 @@ header nav div {
     margin-top: -20px;
 }
 
-nav {
-    background-color: #119DA4;
-    height: 90px;
-}
-
-.w3-content {
-    z-index: 1;
-    width: 90%;
-    margin-left: 40px;
-    height: 2%;
-    margin-top: 5px;
-}
-
-.w3-content img {
-    height: 400px;
-}
-
-
-
-
-#heart{
-
-    -webkit-animation: swing 1s;
-    animation: swing 1s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes swing
-{
-15%
-{
-    -webkit-transform: translateX(5px);
-    transform: translateX(5px);
-}
-30%
-{
-    -webkit-transform: translateX(-5px);
-   transform: translateX(-5px);
-} 
-50%
-{
-    -webkit-transform: translateX(3px);
-    transform: translateX(3px);
-}
-65%
-{
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-}
-80%
-{
-    -webkit-transform: translateX(2px);
-    transform: translateX(2px);
-}
-100%
-{
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-}
-}
-@keyframes swing
-{
-15%
-{
-    -webkit-transform: translateX(5px);
-    transform: translateX(5px);
-}
-30%
-{
-    -webkit-transform: translateX(-5px);
-    transform: translateX(-5px);
-}
-50%
-{
-    -webkit-transform: translateX(3px);
-    transform: translateX(3px);
-}
-65%
-{
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-}
-80%
-{
-    -webkit-transform: translateX(2px);
-    transform: translateX(2px);
-}
-100%
-{
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-}
-
-
-
-#mainPa1 {
-    margin-top: 30px;
-    width: 75%;
-    font-family: 'Loved by the King', cursive;
-    font-weight: bold;
-    line-height: 40px;
-    margin-bottom: 80px;
-}
-
-#main2 {
-    margin-top: 150px;
-    margin-left: 150px;
-    font-size: large;
-    width: 25%;
-    font-family: 'Loved by the King', cursive;
-    font-weight: bold;
-    line-height: 25px;
-    margin-bottom: 80px;
-    float: left;
-}
-
-.imgeclass {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 100%;
-    height: 15%;
-}
-
-.mySlides {
-    width: 95%;
-    height: 300px;
-    margin-left: 40px;
-    margin: top 50px;
-}
-
-#title {
-    color: #161D6F;
-    text-align: left;
-    margin-left: 60px;
-    font-size: 40px;
-    margin-top: 60px;
-    font-family: 'Krona One', sans-serif;
-    font-weight: bolder;
-    text-shadow: #F6F6F6 3px 3px;
-}
-
-#connect {
-    color: #161D6F;
-    font-size: 30px;
-    margin-left: 80px;
-}
-
-header nav {
-    text-align: right;
-    font-size: 25px;
-    margin: top 2px;
-    padding: 10px;
-    margin-bottom: 30px;
-    width: 100%;
+section button :hover {
+    background-color: #F5CA32;
 }
 
 #slog {
     padding: 15px;
     text-align: center;
-    border-style: groove;
     font-size: 50px;
     font-family: 'Loved by the King', cursive;
+    border-style: none;
+    margin-right: 15%;
 }
 
-.mainParg {
-    margin-left: 140px;
-    font-size: 20px;
-    height: 70px;
-    width: 100%;
+nav {
+    background-color: #119DA4;
+    height: 90px;
 }
 
-#main {
-    border-style: solid;
-    width: 25%;
-    float: left;
-    margin-left: 60px;
-    font-size: 20px;
-    margin-top: 90px;
-    text-align: center;
-}
-
-body {
-    background-color: white;
-}
-
-#myChart {
-    margin-top: 50px;
-    width: 25%;
-    height: 25%;
-}
-
-canvas {
-    width: 60% !important;
-    height: 45% !important;
+#topIssues {
     display: inline-block;
-    margin-top: 220px !important;
-    margin-bottom: 50px !important;
+    list-style: none;
 }
 
-#Statics {
+#firstIssue {
+    border-style: solid;
+    border-color: #119DA4;
+    border-radius: 13px;
+    width: 27%;
+    text-align: center;
+    float: left;
+    margin-left: 13px;
+    height: 620px;
     margin-top: 30px;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: bolder;
+    margin-left: 40px;
+    padding: 2px;
+}
+
+#monthly-food-packges {
+    border-style: solid;
+    border-color: #119DA4;
+    border-radius: 13px;
+    width: 27%;
+    text-align: center;
+    float: left;
+    height: 620px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+#OrphanSponcir {
+    border-style: solid;
+    border-color: #119DA4;
+    border-radius: 13px;
+    width: 27%;
+    text-align: center;
+    float: right;
+    margin-right: 5%;
+    height: 620px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.donationsSection {
+    height: 70px;
+    width: 333.25px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
+.pargraph {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    justify-content: left;
+}
 
-/*footer {
-        text-align: center;
-        margin-top: 80px;
-        background-color: #28527A;
-        height: 50px;
-    }*/
+body div h2 {
+    font-family: 'Handlee', cursive;
+    padding: 3px;
+    color: #2b2d42;
+}
+
+body div {
+    margin-bottom: 90px;
+}
+
+#donateSc:hover {
+    color: rgb(245, 245, 245);
+    background-color: #ffd166;
+    transition: ease-in-out;
+    padding: 9px;
+}
+
+#donatefood:hover {
+    color: rgb(240, 240, 234);
+    background-color: #ffd166;
+    transition: ease-in-out;
+    padding: 9px;
+}
+
+#donateOr:hover {
+    color: rgb(240, 240, 234);
+    background-color: #ffd166;
+    transition: ease-in-out;
+    padding: 9px;
+}
+
+#counterContainer {
+    display: inline-block;
+}
+
+
+/*popmessage 
+    /* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #ffd166;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 25%;
+    font-family: 'Loved by the King', cursive;
+    font-size: 40px;
+}
+
+footer {
+    margin-bottom: -100px;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .social {
     height: 5px;
@@ -504,7 +464,7 @@ a {
 .footer-copyright {
     background-color: #027B9A;
     color: #fff;
-    padding: 15px 30px;
+    padding: 15px 10px;
     text-align: center;
 }
 
