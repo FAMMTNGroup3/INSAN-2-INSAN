@@ -1,3 +1,4 @@
+'use strict';
 var myIndex = 0;
 carousel();
 
