@@ -19,22 +19,21 @@ function viewChart() {
 
     var myPieChart = new Chart(ctx, {
         type:  "doughnut",
+  
 
         data: {
 
             datasets: [{
                 data: [10.50, 23.88, 8.21, 11.76, 38.25, 6.92],
-
-                backgroundColor: ["#f6f6f6", "#E71D36", "#98ded9", "#161d6f","#FDC500", "#FFB5A7"],
-                borderColor: 'black',
+                backgroundColor: ["#413c69", "#4a47a3", "#709fb0", "#708fb9","#025955", "#f0a500"],
+                borderColor: "transparent",
             }],
-
             labels: [
+             
                 'Middle East',
                 'India',
                 'South Asia',
                 'Nigeria',
-                
                 'Sub-Saharah Africa',
                 'East Asia and Pasific',
                
@@ -45,34 +44,3 @@ function viewChart() {
     });
 }
 viewChart();
-// function viewChart() {
-
-//     let ctx = document.getElementById('myChart').getContext('2d');
-
-//     let chart = new Chart(ctx, {
-
-//       type: 'bar',
-
-//     //   data: {
-//     //     labels:'ccc',
-
-//     //     datasets: [
-//     //       {
-//     //         label: 'product votes',
-//     //         backgroundColor: '#1e212d',
-//     //         borderColor: '#1e212d',
-//     //         data: [5,6,7],
-//     //       },
-
-//     //       {
-//     //         label: 'Product View',
-//     //         backgroundColor: 'red',
-//     //         borderColor: 'red',
-//     //         data: [5,6,7],
-//     //     },
-//     //     ]
-//     //   },
-//       options: {}
-//     });
-// }
-// viewChart();

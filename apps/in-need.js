@@ -40,7 +40,7 @@ function InNeedUsers(typeOfNeed, phoneNo, description, userAgree) {
     console.log(userInNeed);
 }
 
-let parent = document.getElementById('organizationList');
+let parent = document.getElementById('availableOrg');
 
 function createOrganization (){
 for (let i=0 ; i< normal.length ; i++){
