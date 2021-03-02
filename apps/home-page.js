@@ -23,9 +23,9 @@ function viewChart() {
         data: {
 
             datasets: [{
-                data: [2.50, 23.88, 2.21, 11.76, 7.49, 38.25, 6.92, 0.96],
+                data: [10.50, 23.88, 8.21, 11.76, 38.25, 6.92],
 
-                backgroundColor: ["#f6f6f6", "#c7ffd8", "#98ded9", "#161d6f", "#025955", "#00917c", "#78c4d4", "#dddddd"],
+                backgroundColor: ["#f6f6f6", "#E71D36", "#98ded9", "#161d6f","#FDC500", "#FFB5A7"],
                 borderColor: 'black',
             }],
 
@@ -34,10 +34,10 @@ function viewChart() {
                 'India',
                 'South Asia',
                 'Nigeria',
-                'Congo',
+                
                 'Sub-Saharah Africa',
                 'East Asia and Pasific',
-                'Europe & Central Asia',
+               
 
             ]
         },
