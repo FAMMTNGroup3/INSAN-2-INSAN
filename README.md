@@ -19,3 +19,9 @@
 INSAN-2-INSAN is a non-profit website were people IN-NEED can ask for the help anonymously and organizations can get to them and give the help needed. 
 
 INSAN 2 INSAN, Connect to help! 
+
+
+
+
+
+The Footer Designed By: Pooja Nahelia.
