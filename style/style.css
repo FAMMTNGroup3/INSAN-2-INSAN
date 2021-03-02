@@ -1,87 +1,9 @@
 .mySlides {
     display: none;
 }
-
-
-        #topIssues {
-            display: inline;
-        }
-        
-        #firstIssue {
-            border-style: solid;
-            width: 25%;
-            text-align: center;
-            float: left;
-            margin-left: 10px;
-            height: 625.406px;
-        }
-        
-        #monthly-food-packges {
-            border-style: solid;
-            width: 25%;
-            text-align: center;
-            float: left;
-            margin-left: 10%;
-            height: 625.406px;
-        }
-        
-        #OrphanSponcir {
-            border-style: solid;
-            width: 25%;
-            text-align: center;
-            float: right;
-            margin-right: 5%;
-            height: 625.406px;
-        }
-       
-        .donationsSection {
-            height: 67.9062px;
-            width: 333.25px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        
-        .pargraph {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            /* font-family: ; */
-        }
-        
-        .imgeclass {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-        
-        #donateSc:hover {
-            color: rgb(245, 245, 245);
-            background-color: #008CBA;
-            transition: ease-in-out;
-            padding: 9px;
-        }
-        
-        #donatefood:hover {
-            color: rgb(240, 240, 234);
-            background-color: #008CBA;
-            transition: ease-in-out;
-            padding: 9px;
-        }
-        
-        #donateOr:hover {
-            color: rgb(255, 255, 255);
-            background-color: #008CBA;
-            transition: ease-in-out;
-            padding: 9px;
-        }
-
-
-*{font-family: 'Source Sans Pro', sans-serif;}
-
-h1 {
-    color: rgb(123, 196, 196);
 .containheder {
     position: relative;
 }
-
 nav ul li a {
     text-decoration: none;
     margin-top: 50px;
@@ -92,57 +14,71 @@ nav ul li a {
     letter-spacing: 3px;
     font-family: 'Loved by the King', cursive;
 }
-
 nav ul li {
-    display: inline-block;
-    margin-top: 25px;
+    /* display: inline-block; */
+    margin-top: 30px;
     float: right;
     font-size: 10px;
     margin-right: 25px;
 }
-
-nav ul li :hover {
-    background-color: ivory;
-    color: black;
+nav ul li a:hover {
+    
+    color: #F5CA32;
+    transform: scaleX(1.5);
 }
-
-header nav h1 {
+header nav div {
     font-family: 'Modak', cursive;
     font-size: 35px;
     letter-spacing: 3px;
     padding-top: 25px;
-    color: #f5ca32;
+    color: #F5CA32;
     float: left;
+    /* display: inline-block; */
+    padding: 20px;
+}
+#insan1{
+    margin-top: 5px;
+    float:left;
+    font-family: 'Loved by the King', cursive;
+    font-weight: bold;
+}
+#insan2{
+    margin-top: 5px;
+    float:right;
+    font-family: 'Loved by the King', cursive;
+    font-weight: bold;
 }
 
+#logoimg{
+
+    margin-top: -20px;
+}
 nav {
-    background-color: #119da4;
+    background-color: #119DA4;
     height: 90px;
 }
-
 #topIssues {
     display: inline;
 }
-
-.w3-content {
-    margin-top: 90px;
+.w3-content{
     z-index: 1;
-    width: 90%;
+    width:90%;
     margin-left: 40px;
-    height: 2%;
+    height:2%;
     margin-top: 5px;
 }
 
+.w3-content img{
+    height: 400px;
+}
 #firstIssue {
     border-style: solid;
     width: 25%;
-
     text-align: center;
     float: left;
     margin-left: 10px;
     height: 625.406px;
 }
-
 #mainPa1 {
     margin-top: 30px;
     width: 75%;
@@ -151,11 +87,18 @@ nav {
     line-height: 40px;
     margin-bottom: 80px;
 }
-
 #main2 {
-    margin-top: 30px;
-}
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: large;
+    width: 25%;
+    font-family: 'Loved by the King', cursive;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 80px;
+    float:left;
 
+}
 #monthly-food-packges {
     border-style: solid;
     width: 25%;
@@ -164,7 +107,6 @@ nav {
     margin-left: 10%;
     height: 625.406px;
 }
-
 #OrphanSponcir {
     border-style: solid;
     width: 25%;
@@ -173,126 +115,106 @@ nav {
     margin-right: 5%;
     height: 625.406px;
 }
-
 .donationsSection {
     height: 67.9062px;
     width: 333.25px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .pargraph {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: ;
+   
 }
-
 .imgeclass {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
     height: 15%;
 }
-
 .mySlides {
     width: 95%;
     height: 300px;
     margin-left: 40px;
     margin: top 50px;
 }
-
 #donateSc:hover {
     color: rgb(245, 245, 245);
     background-color: #008CBA;
     transition: ease-in-out;
     padding: 9px;
 }
-
 #donatefood:hover {
     color: rgb(240, 240, 234);
     background-color: #008CBA;
     transition: ease-in-out;
     padding: 9px;
 }
-
 #donateOr:hover {
     color: rgb(255, 255, 255);
     background-color: #008CBA;
     transition: ease-in-out;
     padding: 9px;
 }
-
 #title {
-    color: #161d6f;
+    color: #161D6F;
     text-align: left;
     margin-left: 60px;
     font-size: 40px;
     margin-top: 60px;
     font-family: 'Krona One', sans-serif;
     font-weight: bolder;
-    text-shadow: #f6f6f6 3px 3px;
+    text-shadow: #F6F6F6 3px 3px;
 }
-
-
-
-nav ul li {
-    
-
 #connect {
-    color: #161d6f;
+    color: #161D6F;
     font-size: 30px;
     margin-left: 80px;
 }
-
 header nav {
     text-align: right;
     font-size: 25px;
     margin: top 2px;
-    margin-right: 40px;
+    
     padding: 10px;
     margin-bottom: 30px;
-    margin-left: 12px;
+    
+    width: 100%;
 }
-
 #slog {
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     border-style: groove;
     font-size: 50px;
     font-family: 'Loved by the King', cursive;
 }
-
 #first-image {
     /* background-image: url(../img/ngo.jpg); */
     text-decoration: none;
-    text-shadow: 2px 2px #1309a1;
+    text-shadow: 2px 2px #1309A1;
     padding: 100px;
     color: rgb(123, 196, 196);
 }
-
 #second-image {
     /* background-image: url(../img/support-oranizations.jpg); */
     text-decoration: none;
-    text-shadow: 2px 2px #cdccda;
+    text-shadow: 2px 2px #CDCCDA;
     padding: 100px;
     color: rgb(7, 4, 44);
 }
-
 #third-image {
     /* background-image: url(../img/top-issues.jpg); */
     text-decoration: none;
-    text-shadow: 2px 2px #1309a1;
+    text-shadow: 2px 2px #1309A1;
     padding: 100px;
     color: rgb(123, 196, 196);
 }
-
 .mainParg {
-    margin-left: 120px;
+    margin-left: 140px;
     font-size: 20px;
     height: 70px;
-    width: 80%;
+    width: 100%;
 }
-
 #main {
     border-style: solid;
     width: 25%;
@@ -302,78 +224,52 @@ header nav {
     margin-top: 90px;
     text-align: center;
 }
-
 body {
     background-color: white;
 }
-
 #myChart {
     margin-top: 50px;
     width: 25%;
     height: 25%;
 }
-
 canvas {
-    width: 100% !important;
+    width: 60% !important;
     height: 45% !important;
-
     display: inline-block;
-    margin-top: 90px !important;
+    margin-top: 220px !important;
+    margin-bottom: 50px !important;
 }
-
 #Statics {
     margin-top: 30px;
     font-size: 30px;
+    line-height: 30px;
+    font-weight: bolder;
     margin-bottom: 30px;
 }
-
-
 /*footer {
         text-align: center;
         margin-top: 80px;
-        background-color: #28527a;
+        background-color: #28527A;
         height: 50px;
     }*/
-
 .social {
     height: 5px;
 }
-
 * {
     margin: 0;
     padding: 0;
 }
-
 a {
     color: #fff;
     text-decoration: none;
 }
-
-
-article{
-    
-    margin-top: 100px;
-}
-
-body{
-    
-    background-color: rgb(212, 212, 236);
-}
-
-
-
-
-
-
 .pg-footer {
     font-family: 'Roboto', sans-serif;
 }
-
 .footer {
     background-color: #004658;
     color: #fff;
 }
-
 .footer-wave-svg {
     background-color: transparent;
     display: block;
@@ -382,11 +278,9 @@ body{
     top: -1px;
     width: 100%;
 }
-
 .footer-wave-path {
-    fill: #fffff2;
+    fill: #FFFFF2;
 }
-
 .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -394,7 +288,6 @@ body{
     padding: 40px 15px 100px;
     position: relative;
 }
-
 .footer-content-column {
     box-sizing: border-box;
     float: left;
@@ -403,22 +296,18 @@ body{
     width: 100%;
     color: #fff;
 }
-
 .footer-content-column ul li a {
     color: #fff;
     text-decoration: none;
 }
-
 .footer-logo-link {
     display: inline-block;
 }
-
 .footer-menu {
     margin-top: 30px;
 }
-
 .footer-menu-name {
-    color: #fffff2;
+    color: #FFFFF2;
     font-size: 15px;
     font-weight: 900;
     letter-spacing: .1em;
@@ -427,37 +316,31 @@ body{
     margin-top: 0;
     text-transform: uppercase;
 }
-
 .footer-menu-list {
     list-style: none;
     margin-bottom: 0;
     margin-top: 10px;
     padding-left: 0;
 }
-
 .footer-menu-list li {
     margin-top: 5px;
 }
-
 .footer-call-to-action-description {
-    color: #fffff2;
+    color: #FFFFF2;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
 .footer-call-to-action-button:hover {
-    background-color: #fffff2;
-    color: #00bef0;
+    background-color: #FFFFF2;
+    color: #00BEF0;
 }
-
 .button:last-of-type {
     margin-right: 0;
 }
-
 .footer-call-to-action-button {
-    background-color: #027b9a;
+    background-color: #027B9A;
     border-radius: 21px;
-    color: #fffff2;
+    color: #FFFFF2;
     display: inline-block;
     font-size: 11px;
     font-weight: 900;
@@ -471,13 +354,11 @@ body{
     cursor: pointer;
     position: relative;
 }
-
 .footer-call-to-action {
     margin-top: 30px;
 }
-
 .footer-call-to-action-title {
-    color: #fffff2;
+    color: #FFFFF2;
     font-size: 14px;
     font-weight: 900;
     letter-spacing: .1em;
@@ -486,19 +367,16 @@ body{
     margin-top: 0;
     text-transform: uppercase;
 }
-
 .footer-call-to-action-link-wrapper {
     margin-bottom: 0;
     margin-top: 10px;
     color: #fff;
     text-decoration: none;
 }
-
 .footer-call-to-action-link-wrapper a {
     color: #fff;
     text-decoration: none;
 }
-
 .footer-social-links {
     bottom: 0;
     height: 54px;
@@ -506,7 +384,6 @@ body{
     right: 0;
     width: 236px;
 }
-
 .footer-social-amoeba-svg {
     height: 54px;
     left: 0;
@@ -515,24 +392,20 @@ body{
     top: 0;
     width: 236px;
 }
-
 .footer-social-amoeba-path {
-    fill: #027b9a;
+    fill: #027B9A;
 }
-
 .footer-social-link.linkedin {
     height: 26px;
     left: 3px;
     top: 11px;
     width: 26px;
 }
-
 .footer-social-link {
     display: block;
     padding: 10px;
     position: absolute;
 }
-
 .hidden-link-text {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
@@ -546,50 +419,42 @@ body{
     border: 0;
     top: 50%;
 }
-
 .footer-social-icon-svg {
     display: block;
 }
-
 .footer-social-icon-path {
-    fill: #fffff2;
+    fill: #FFFFF2;
     transition: fill .2s;
 }
-
 .footer-social-link.twitter {
     height: 28px;
     left: 62px;
     top: 3px;
     width: 28px;
 }
-
 .footer-social-link.youtube {
     height: 24px;
     left: 123px;
     top: 12px;
     width: 24px;
 }
-
 .footer-social-link.github {
     height: 34px;
     left: 172px;
     top: 7px;
     width: 34px;
 }
-
 .footer-copyright {
-    background-color: #027b9a;
+    background-color: #027B9A;
     color: #fff;
     padding: 15px 30px;
     text-align: center;
 }
-
 .footer-copyright-wrapper {
     margin-left: auto;
     margin-right: auto;
     max-width: 1200px;
 }
-
 .footer-copyright-text {
     color: #fff;
     font-size: 13px;
@@ -598,19 +463,13 @@ body{
     margin-bottom: 0;
     margin-top: 0;
 }
-
 .footer-copyright-link {
     color: #fff;
     text-decoration: none;
 }
-
-
 /* Media Query For different screens */
-
-
 /* @media (min-width:320px) and (max-width:479px) {
         /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-
 .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -619,11 +478,8 @@ body{
     position: relative;
 }
 
-
-}
 @media (min-width:480px) and (max-width:599px) {
     /* smartphones, Android phones, landscape iPhone */
-    
     .footer-content {
         margin-left: auto;
         margin-right: auto;
@@ -634,7 +490,6 @@ body{
 }
 @media (min-width:600px) and (max-width: 800px) {
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-    
     .footer-content {
         margin-left: auto;
         margin-right: auto;
@@ -660,11 +515,9 @@ body{
         padding: 40px 15px 450px;
         position: relative;
     }
-    
     .footer-wave-svg {
         height: 50px;
     }
-    
     .footer-content-column {
         width: 24.99%;
     }
@@ -674,4 +527,21 @@ body{
             width: 49.99%;
         } */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
