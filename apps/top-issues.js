@@ -3,8 +3,8 @@
 
 let raised = 0;
 
-let raised1= 0;
-let raised2= 0;
+let raised1 = 0;
+let raised2 = 0;
 
 
 //getting Doanation for Schools
@@ -23,7 +23,7 @@ function donationsCounter(event) {
     raised = raised + donate;
 
     newCounter.textContent = 'Amount raised ' + raised + '$';
-    alert('Thank you for your Donations');
+
 }
 
 //getting donations for food
@@ -39,8 +39,6 @@ function donationsCounter2(event) {
     let donate1 = parseInt(food.value);
     raised1 = raised1 + donate1;
     newCounter2.textContent = 'Amount raised ' + raised1 + '$';
-
-    alert('Thank you for your Donations');
 }
 
 // getting donation for Orphans
@@ -57,6 +55,39 @@ function donationCounter3(event) {
     let donate2 = parseInt(Or.value);
     raised2 = raised2 + donate2;
     newcounter3.textContent = 'Amount  ' + raised2 + '$';
+}
 
-    alert('Thank you for your Donations');
+
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("donateSc");
+var btn2 = document.getElementById("donatefood");
+var btn3 = document.getElementById("donateOr");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+btn2.onclick = function() {
+    modal.style.display = "block";
+}
+btn3.onclick = function() {
+        modal.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
