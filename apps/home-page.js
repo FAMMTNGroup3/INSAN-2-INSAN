@@ -18,7 +18,7 @@ function viewChart() {
     var ctx = document.getElementById('myChart').getContext('2d');
 
     var myPieChart = new Chart(ctx, {
-        type: 'pie',
+        type:  "doughnut",
 
         data: {
 

@@ -37,6 +37,7 @@ new Organization("../img/rqMlqxSW.jpg", "Caritas Jordan", ' Location: Jordan, Ph
 
 new Organization("../img/6bfd3ab5cc925159fab3b6444f12.png", "Save the Children", 'Location: Jordan, Phone Number: (06) 464 0852, Email Address: example@gmail.org.jo',"Children Services", "The Save the Children Fund, commonly known as Save the Children, was established in the United Kingdom in 1919 to improve the lives of children through better education, health care, and economic opportunities, as well as providing emergency aid in natural disasters, war, and other conflicts.");
 
+new Organization("../img/140477440_5319265198114385_446346415554341158_n.jpg", "We Are For You", 'Location: Jordan, Phone Number: 07 9017 5351, Email Address: example@gmail.org.jo',"education", "A group of young people gathered on love of benevolence and charitable volunteer work from various governorates of the Kingdom, where this group was established under the name (We are for you initiative) at the end of 2011 Then the initiative (We are for you) was registered in the Ministry of Social Development under the name (We are for you charitable society) and its goals and aspirations were defined in coordination with the Ministry of Social Development and a meeting of the constituent body was held at the beginning of 2013 in order for the administrative body to be appointed where Engineer Adel Ghonim was installed as a president of the association");
 
 
 
@@ -55,6 +56,7 @@ function addOrganization(event) {
     let orgEmail = event.target.Email.value
     let orgImage = event.target.orgImage.value
     let orgConsent = event.target.consent.checked
+    
     
     
     // let createButton = document.createElement("input") 
