@@ -33,7 +33,6 @@ nav ul li a:hover {
 header nav div {
     font-family: 'Modak', cursive;
     font-size: 35px;
-    /* letter-spacing: 3px; */
     padding-top: 25px;
     color: #F5CA32;
     float: left;
@@ -105,7 +104,7 @@ main p {
 
 #organizationsForm {
     width: 90%;
-    background-image: url(../img/blue-striped-pencil-notebook-lined-paper-background_206881-77.jpg);
+    background-image: url(../img/background.jpg);
     image-resolution: ;
     border-radius: 20px;
     background-size: 100%;
@@ -209,31 +208,37 @@ fieldset legend {
     font-family: 'Handlee', cursive;
     padding: 10px;
 }
+
+#availableOrg li p {
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    
+
 }
+#availableOrg li img{
+    padding: 50px;
+    float: right;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+#availableOrg li {
+    
+    border-radius: 13px;
+    list-style: none;
+    background-color: rgb(190, 197, 197);
+    margin: 50px;
+    width: 60%;
+    margin-left: 280px;
+    border-style: inset;
+    box-shadow: 5px 10px;
+}
+#availableOrg li h2 {
+    text-align: center;
+    font-size: 30px;
+}
+#availableOrg li:hover{
+    transform: scale(1.1);
+}
 
 
     .social {
@@ -507,9 +512,7 @@ fieldset legend {
         }
     }
     @media (min-width: 568px) {
-        /* .footer-content-column {
-                width: 49.99%;
-            } */
+      
     }
     
   
