@@ -232,9 +232,9 @@ body div h2 {
     color: #2b2d42;
 }
 
-body div {
+/* body div {
     margin-bottom: 90px;
-}
+} */
 
 #donateSc:hover {
     color: rgb(245, 245, 245);
@@ -554,6 +554,7 @@ a {
     color: #fff;
     padding: 15px 10px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .footer-copyright-wrapper {
