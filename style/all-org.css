@@ -1,9 +1,51 @@
+/*in-needform*/
+
+#typeOfNeed {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #F5CA32;
+}
+
+#agree {
+    margin-left: 150px;
+    width: 20px;
+    height: 20px;
+}
+
+#phone {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #F5CA32;
+}
+
+#description {
+    width: 200px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #F5CA32;
+}
+
+#organizationsForm {
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 23px;
+}
 
 nav {
     background-color: #119DA4;
     height: 90px;
 }
-
 
 nav ul li a {
     text-decoration: none;
@@ -25,7 +67,6 @@ nav ul li {
 }
 
 nav ul li a:hover {
-    
     color: #F5CA32;
     transform: scaleX(1.5);
 }
@@ -39,50 +80,45 @@ header nav div {
     padding: 20px;
 }
 
-
-#insan1{
+#insan1 {
     margin-top: 5px;
-    float:left;
+    float: left;
     font-family: 'Loved by the King', cursive;
     font-weight: bold;
 }
 
-#insan2{
+#insan2 {
     margin-top: 5px;
-    float:right;
+    float: right;
     font-family: 'Loved by the King', cursive;
     font-weight: bold;
 }
 
-#logoimg{
-
+#logoimg {
     margin-top: -20px;
 }
 
-
-footer #insan1{
+footer #insan1 {
     margin-top: 5px;
-    float:left;
+    float: left;
     font-family: 'Loved by the King', cursive;
     font-weight: bold;
     font-size: 30px;
     color: #F5CA32;
 }
 
-footer #insan2{
+footer #insan2 {
     margin-top: 5px;
-    float:right;
+    float: right;
     color: #F5CA32;
     font-family: 'Loved by the King', cursive;
     font-weight: bold;
     font-size: 30px;
 }
 
-footer #logoimg{
-
+footer #logoimg {
     margin-top: -20px;
 }
-
 
 #slog {
     padding: 20px;
@@ -91,7 +127,6 @@ footer #logoimg{
     font-family: 'Loved by the King', cursive;
     border-style: none;
     width: 85%;
-
 }
 
 main p {
@@ -99,7 +134,6 @@ main p {
     font-family: 'Handlee', cursive;
     font-weight: bold;
     font-size: 20px;
-
 }
 
 #organizationsForm {
@@ -112,7 +146,6 @@ main p {
     margin-bottom: 70px;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 fieldset {
@@ -121,8 +154,25 @@ fieldset {
     margin-top: 20px;
 }
 
-fieldset input{
-width: 200px;
+fieldset input {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #F5CA32;
+}
+
+#checkbox {
+    margin-left: 40px;
+}
+
+#submit {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+    height: 40px;
 }
 
 fieldset legend {
@@ -133,15 +183,18 @@ fieldset legend {
     padding-top: 20px;
 }
 
-
-#servicesType{
-    font-family: 'Handlee', cursive;
-    font-size: 20px;
-    font-weight: bold;
+#servicesType {
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #F5CA32;
 }
 
 #firstList {
-    padding:30px;
+    padding: 30px;
     padding-bottom: 10px;
     list-style: none;
     float: left;
@@ -151,8 +204,8 @@ fieldset legend {
     font-family: 'Handlee', cursive;
 }
 
-#firstList input{
-    margin: 20px;   
+#firstList input {
+    margin: 20px;
     font-family: 'Handlee', cursive;
     font-size: 20px;
     font-weight: bold;
@@ -160,27 +213,33 @@ fieldset legend {
 
 #orgName {
     padding-left: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 5px solid #F5CA32;
 }
+
 #location {
     padding-left: 20px;
 }
+
 #number {
     padding-left: 20px;
 }
 
-
-
-#secondList input{
+#secondList input {
     margin: 20px;
     font-family: 'Handlee', cursive;
     font-size: 20px;
     font-weight: bold;
 }
 
-
-#secondList{
+#secondList {
     padding-bottom: 20px;
-   padding: 30px;
+    padding: 30px;
     float: right;
     list-style: none;
     font-size: 20px;
@@ -190,27 +249,26 @@ fieldset legend {
     font-family: 'Handlee', cursive;
 }
 
-
 #checkbox {
-    display:inline-block;
+    display: inline-block;
     font-size: 20px;
-    text-align:left;
+    text-align: left;
     font-weight: bold;
     font-family: 'Handlee', cursive;
 }
 
-#submit{
+#submit {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Handlee', cursive;
     padding: 10px;
 }
 
-#submit:hover{
-background-color: #F5CA32;
+#submit:hover {
+    background-color: #F5CA32;
 }
 
-main .inNeed{
+main .inNeed {
     font-size: 25px;
 }
 
@@ -219,15 +277,14 @@ main .inNeed{
     width: 70%;
     text-align: center;
     font-size: 20px;
-
 }
-#availableOrg li img{
+
+#availableOrg li img {
     padding: 50px;
     float: right;
-
 }
+
 #availableOrg li {
-    
     border-radius: 20px;
     list-style: none;
     background-color: rgb(190, 197, 197);
@@ -238,14 +295,15 @@ main .inNeed{
     border-style: inset;
     box-shadow: 5px 10px;
 }
+
 #availableOrg li h2 {
     text-align: center;
     font-size: 40px;
 }
-#availableOrg li:hover{
+
+#availableOrg li:hover {
     transform: scale(1.1);
 }
-
 
 #heart {
     -webkit-animation: swing 1s;
@@ -307,6 +365,90 @@ main .inNeed{
         transform: translateX(0);
     }
 }
+
+
+
+
+/*popmessage 
+    /* The Modal (background) */
+
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+    }
+    
+    
+    /* Modal Content */
+    
+    .modal-content {
+        background-color: #ffd166;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #888;
+        width: 50%;
+        height: 25%;
+        font-family: 'Loved by the King', cursive;
+        font-size: 40px;
+        border-radius: 20px;
+    }
+    
+    .modal-content span {
+        /* display: block; */
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        
+    }
+    
+
+    footer {
+        margin-bottom: -100px;
+    }
+    
+    
+    /* The Close Button */
+    
+    .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
 
 
 .social {
@@ -426,7 +568,6 @@ a {
     position: relative;
 }
 
-
 .footer-call-to-action-title {
     color: #FFFFF2;
     font-size: 14px;
@@ -537,14 +678,12 @@ a {
     font-weight: 400;
     line-height: 18px;
     margin-bottom: 0;
-
 }
 
 .footer-copyright-link {
     color: #fff;
     text-decoration: none;
 }
-
 
 .footer-content {
     margin-left: auto;
@@ -554,15 +693,14 @@ a {
     position: relative;
 }
 
-    .footer-wave-svg {
-        height: 50px;
-    }
-    .footer-content-column {
-        width: 24.99%;
-    }
+.footer-wave-svg {
+    height: 50px;
+}
 
+.footer-content-column {
+    width: 24.99%;
+}
 
-    div.footer-content {
-        padding-bottom: 250px;
-
-    }
+div.footer-content {
+    padding-bottom: 250px;
+}

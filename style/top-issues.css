@@ -60,30 +60,27 @@ header nav div {
     margin-top: -20px;
 }
 
-
-footer #insan1{
+footer #insan1 {
     margin-top: 5px;
-    float:left;
+    float: left;
     font-family: 'Loved by the King', cursive;
     font-weight: bold;
     font-size: 30px;
     color: #F5CA32;
 }
 
-footer #insan2{
+footer #insan2 {
     margin-top: 5px;
-    float:right;
+    float: right;
     color: #F5CA32;
     font-family: 'Loved by the King', cursive;
     font-weight: bold;
     font-size: 30px;
 }
 
-footer #logoimg{
-
+footer #logoimg {
     margin-top: -20px;
 }
-
 
 section button :hover {
     background-color: #F5CA32;
@@ -97,7 +94,6 @@ section button :hover {
     border-style: none;
     margin-right: 15%;
 }
-
 
 #heart {
     -webkit-animation: swing 1s;
@@ -159,8 +155,6 @@ section button :hover {
         transform: translateX(0);
     }
 }
-
-
 
 nav {
     background-color: #119DA4;
@@ -232,10 +226,6 @@ body div h2 {
     color: #2b2d42;
 }
 
-/* body div {
-    margin-bottom: 90px;
-} */
-
 #donateSc:hover {
     color: rgb(245, 245, 245);
     background-color: #ffd166;
@@ -300,6 +290,16 @@ body div h2 {
     height: 25%;
     font-family: 'Loved by the King', cursive;
     font-size: 40px;
+    border-radius: 20px;
+}
+
+.modal-content span {
+    /* display: block; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
 }
 
 footer {
@@ -577,8 +577,6 @@ a {
     text-decoration: none;
 }
 
-
-
 .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -641,4 +639,8 @@ a {
     /* .footer-content-column {
             width: 49.99%;
         } */
+}
+
+div.footer-content {
+    padding-bottom: 300px;
 }
