@@ -203,17 +203,32 @@ header nav {
     font-size: 25px;
     margin: top 2px;
     padding: 10px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     width: 100%;
 }
 
-#slog {
-    padding: 15px;
-    text-align: center;
-    border-style: groove;
-    font-size: 50px;
-    font-family: 'Loved by the King', cursive;
+header{
+    position: relative;
+    width: 100%;
 }
+
+#happiness{
+    margin-left: auto;
+    margin-right: 190px;
+    text-align: center;
+}
+
+#slog {
+    font-size: 50px;
+    font-family: 'Loved by the King', cursive ;
+    background-color: #119DA4 ;
+  
+}
+
+#slog svg {
+    position: absolute; 
+}
+
 
 .mainParg {
     margin-left: 140px;
