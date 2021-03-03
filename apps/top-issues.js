@@ -13,19 +13,30 @@ console.log();
 let counterContainer = document.getElementById('counterContainer');
 let newCounter = document.createElement('h3');
 counterContainer.appendChild(newCounter);
-
 getdonationButton.addEventListener('click', donationsCounter);
 
 function donationsCounter(event) {
     event.preventDefault();
-
     let donate = parseInt(Sc.value);
     raised = raised + donate;
+    settingItem();
+    newCounter.textContent = raised + '$';
+}
+gettingItems();
+newCounter.textContent = raised + '$';
 
-    newCounter.textContent = 'Amount raised ' + raised + '$';
-
+function settingItem() {
+    localStorage.setItem("money", JSON.stringify(raised));
 }
 
+function gettingItems() {
+    let ItemsBack = localStorage.getItem("money");
+    let objectBack = JSON.parse(ItemsBack);
+
+    if (objectBack !== null) {
+        raised = objectBack;
+    }
+}
 //getting donations for food
 let getFoodDonation = document.getElementById('donatefood');
 let counterContainer2 = document.getElementById('counterContainer2');
@@ -38,9 +49,23 @@ function donationsCounter2(event) {
 
     let donate1 = parseInt(food.value);
     raised1 = raised1 + donate1;
-    newCounter2.textContent = 'Amount raised ' + raised1 + '$';
+    settingItem1();
+    newCounter2.textContent = raised1 + '$';
+}
+gettingItems1();
+newCounter2.textContent = raised1 + '$';
+
+function settingItem1() {
+    localStorage.setItem("money1", JSON.stringify(raised1));
 }
 
+function gettingItems1() {
+    let ItemsBack = localStorage.getItem("money1");
+    let objectBack = JSON.parse(ItemsBack);
+    if (objectBack !== null) {
+        raised1 = objectBack;
+    }
+}
 // getting donation for Orphans
 let getSponserShip = document.getElementById('donateOr');
 let counterContainer3 = document.getElementById('counterContainer3');
@@ -50,15 +75,25 @@ getSponserShip.addEventListener('click', donationCounter3);
 
 function donationCounter3(event) {
     event.preventDefault();
-
-
     let donate2 = parseInt(Or.value);
     raised2 = raised2 + donate2;
-    newcounter3.textContent = 'Amount  ' + raised2 + '$';
+    settingItem2();
+    newcounter3.textContent = raised2 + '$';
+}
+gettingItems2();
+newcounter3.textContent = raised2 + '$';
+
+function settingItem2() {
+    localStorage.setItem("money2", JSON.stringify(raised2));
 }
 
-
-
+function gettingItems2() {
+    let ItemsBack = localStorage.getItem("money2");
+    let objectBack = JSON.parse(ItemsBack);
+    if (objectBack !== null) {
+        raised2 = objectBack;
+    }
+}
 
 // Get the modal
 var modal = document.getElementById("myModal");
