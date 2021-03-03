@@ -17,6 +17,11 @@ nav ul li a {
     font-family: 'Loved by the King', cursive;
 }
 
+nav ul li a:hover {
+    color: #F5CA32;
+    font-size: 30px;
+}
+
 nav ul li {
     margin-top: 30px;
     float: right;
@@ -85,15 +90,29 @@ footer #logoimg {
 section button :hover {
     background-color: #F5CA32;
 }
+header{
+    position: relative;
+    width: 100%;
+}
+
+#happiness{
+    margin-left: auto;
+    margin-right: 190px;
+    text-align: center;
+}
 
 #slog {
-    padding: 15px;
-    text-align: center;
     font-size: 50px;
-    font-family: 'Loved by the King', cursive;
-    border-style: none;
-    margin-right: 15%;
+    font-family: 'Loved by the King', cursive ;
+    background-color: #119DA4 ;
+  
 }
+
+#slog svg {
+    position: absolute; 
+}
+
+
 
 #heart {
     -webkit-animation: swing 1s;

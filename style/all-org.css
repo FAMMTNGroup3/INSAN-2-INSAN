@@ -7,7 +7,7 @@
     background-color: transparent;
     box-sizing: border-box;
     border: none;
-    border-bottom: 5px solid #F5CA32;
+    border-bottom: 5px solid rgb(51, 48, 48);
 }
 
 #agree {
@@ -23,7 +23,7 @@
     background-color: transparent;
     box-sizing: border-box;
     border: none;
-    border-bottom: 5px solid #F5CA32;
+    border-bottom: 5px solid rgb(51, 48, 48);
 }
 
 #description {
@@ -33,7 +33,7 @@
     background-color: transparent;
     box-sizing: border-box;
     border: none;
-    border-bottom: 5px solid #F5CA32;
+    border-bottom: 5px solid rgb(51, 48, 48);
 }
 
 #organizationsForm {
@@ -68,7 +68,7 @@ nav ul li {
 
 nav ul li a:hover {
     color: #F5CA32;
-    transform: scaleX(1.5);
+    font-size: 30px;
 }
 
 header nav div {
@@ -120,19 +120,30 @@ footer #logoimg {
     margin-top: -20px;
 }
 
+
+header{
+    position: relative;
+    width: 100%;
+}
+
+
+#happiness{
+    margin-left: auto;
+    margin-right: 190px;
+}
+
 #slog {
-    margin-top: 0px;
-    margin-right: auto;
-    padding: 70px;
     text-align: center;
     font-size: 50px;
-    font-family: 'Loved by the King', cursive ;opacity :100%;
-    border-style: none;
-    width: 80%;
+    font-family: 'Loved by the King', cursive ;
+    background-color: #119DA4 ;
+    padding: 10px;
+    margin-right: auto;
     margin-left: auto;
-    
-    background-image: url(../img/blue.jpg); width: 95%; height: 150px ;
-    margin-bottom: 30px;
+}
+
+#slog svg path{
+    position: absolute;
 }
 
 main p {
@@ -144,16 +155,16 @@ main p {
 
 #organizationsForm {
     width: 90%;
-    box-shadow: 5px 10px rgb(202, 212, 230);
-    border-color: rgb(202, 212, 230);
+    box-shadow: 10px 10px 5px #ceceb6;
+ 
     border-style: solid;
     border-radius: 20px;
-    background-size: 100%;
-    background-repeat: no-repeat;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
+    background-color:#ceecee;
+    border-color: #ceecee;
 }
 
 fieldset {
@@ -169,7 +180,7 @@ fieldset input {
     background-color: transparent;
     box-sizing: border-box;
     border: none;
-    border-bottom: 5px solid #F5CA32;
+    border-bottom: 5px solid rgb(51, 51, 48);
 }
 
 #checkbox {
@@ -198,7 +209,7 @@ fieldset legend {
     background-color: transparent;
     box-sizing: border-box;
     border: none;
-    border-bottom: 5px solid #F5CA32;
+    border-bottom: 5px solid rgb(51, 48, 48);
 }
 
 #firstList {
@@ -227,7 +238,7 @@ fieldset legend {
     background-color: transparent;
     box-sizing: border-box;
     border: none;
-    border-bottom: 5px solid #F5CA32;
+    border-bottom: 5px solid rgb(51, 48, 48);
 }
 
 #location {
@@ -282,6 +293,9 @@ fieldset legend {
     font-family: 'Handlee', cursive;
 }
 
+
+
+
 #availableOrg li p {
     padding: 10px;
     width: 70%;
@@ -297,13 +311,13 @@ fieldset legend {
 #availableOrg li {
     border-radius: 20px;
     list-style: none;
-    background-color: rgb(52, 160, 160);
+    background-color: #119DA4;
     margin: 70px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    border-style: inset;
-    box-shadow: 5px 10px cadetblue;
+    border-style: solid #119DA4;
+    box-shadow: 10px 10px 5px #ceceb6;
     margin-bottom: 50px;
 }
 
@@ -313,7 +327,7 @@ fieldset legend {
 }
 
 #availableOrg li:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 #heart {
