@@ -25,7 +25,7 @@ function viewChart() {
 
             datasets: [{
                 data: [10.50, 23.88, 8.21, 11.76, 38.25, 6.92],
-                backgroundColor: ["#413c69", "#4a47a3", "#709fb0", "#600fb9","#025955", "#f0a500"],
+                backgroundColor: ["#fcd1d1", "#ffaec0", "#d3e0dc", "#8ac4d0","#aee1e1", "#ece2e1"],
                 borderColor: "transparent",
             }],
             labels: [
