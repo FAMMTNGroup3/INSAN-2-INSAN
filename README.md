@@ -21,7 +21,4 @@ INSAN-2-INSAN is a non-profit website were people IN-NEED can ask for the help a
 INSAN 2 INSAN, Connect to help! 
 
 
-
-
-
 The Footer Designed By: Pooja Nahelia.
