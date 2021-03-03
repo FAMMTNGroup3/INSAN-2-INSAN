@@ -21,9 +21,9 @@ function handleUserSubmit(event) {
     // console.log(userAgree);
     new InNeedUsers(typeOfNeed, phoneNo, description, userAgree);
 
-   createOrganization();
+    createOrganization();
 }
-userSubmit.setAttribute("onclick","this.disabled = true");
+//userSubmit.setAttribute("onclick","this.disabled = true");
 
 
 let gettingItem = localStorage.getItem("newOrganization");
@@ -42,43 +42,43 @@ function InNeedUsers(typeOfNeed, phoneNo, description, userAgree) {
 
 let parent = document.getElementById('availableOrg');
 
-function createOrganization (){
-for (let i=0 ; i< normal.length ; i++){
+function createOrganization() {
+    for (let i = 0; i < normal.length; i++) {
 
 
-    if (typeOfNeed === normal[i].services){
-    
-    let createList = document.createElement('li');
+        if (typeOfNeed === normal[i].services) {
 
-    let createImg = document.createElement('img');
-    let createSrc = document.createAttribute('src')
-    let createWidth = document.createAttribute('width');
-    let createHight = document.createAttribute('hight');
-    createImg.setAttributeNodeNS(createSrc);
-    createImg.setAttributeNodeNS(createHight);
-    createImg.setAttributeNodeNS(createWidth);
-    createWidth.value= '200px';
-    createHight.value = '200px';
-        
-        let createH2ForName = document.createElement('h2');
-        let createParaForDescription = document.createElement('p');
-        let serviceType = document.createElement('p')
-        let createParaForInfo = document.createElement('p');
+            let createList = document.createElement('li');
 
-        createH2ForName.textContent = normal[i].name
-        createParaForDescription.textContent = normal[i].description
-        serviceType.textContent = normal[i].services
-        createParaForInfo.textContent = normal[i].info
-        createImg.src = normal[i].imagePath
+            let createImg = document.createElement('img');
+            let createSrc = document.createAttribute('src')
+            let createWidth = document.createAttribute('width');
+            let createHight = document.createAttribute('hight');
+            createImg.setAttributeNodeNS(createSrc);
+            createImg.setAttributeNodeNS(createHight);
+            createImg.setAttributeNodeNS(createWidth);
+            createWidth.value = '200px';
+            createHight.value = '200px';
 
-        createList.appendChild(createImg);
-        createList.appendChild(createH2ForName);
-        createList.appendChild(createParaForDescription);
-        createList.appendChild(serviceType);
-        createList.appendChild(createParaForInfo);
-        parent.appendChild(createList);
-        
+            let createH2ForName = document.createElement('h2');
+            let createParaForDescription = document.createElement('p');
+            let serviceType = document.createElement('p')
+            let createParaForInfo = document.createElement('p');
+
+            createH2ForName.textContent = normal[i].name
+            createParaForDescription.textContent = normal[i].description
+            serviceType.textContent = normal[i].services
+            createParaForInfo.textContent = normal[i].info
+            createImg.src = normal[i].imagePath
+
+            createList.appendChild(createImg);
+            createList.appendChild(createH2ForName);
+            createList.appendChild(createParaForDescription);
+            createList.appendChild(serviceType);
+            createList.appendChild(createParaForInfo);
+            parent.appendChild(createList);
+
+        }
+
     }
-
-}
 }
