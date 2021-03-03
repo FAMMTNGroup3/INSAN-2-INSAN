@@ -164,6 +164,7 @@ nav {
 #topIssues {
     display: inline-block;
     list-style: none;
+    margin-bottom: 200px;
 }
 
 #firstIssue {
@@ -206,10 +207,12 @@ nav {
 }
 
 .donationsSection {
+    text-align: center;
     height: 70px;
     width: 333.25px;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 .pargraph {
@@ -299,7 +302,6 @@ body div h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    
 }
 
 footer {
