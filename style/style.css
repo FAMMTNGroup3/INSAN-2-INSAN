@@ -22,6 +22,7 @@ nav ul li {
     float: right;
     font-size: 10px;
     margin-right: 25px;
+    list-style: none;
 }
 
 nav ul li a:hover {
@@ -218,12 +219,17 @@ header{
     text-align: center;
 }
 
+
 #slog {
+    text-align: center;
     font-size: 50px;
     font-family: 'Loved by the King', cursive ;
     background-color: #119DA4 ;
-  
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 #slog svg {
     position: absolute; 

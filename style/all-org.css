@@ -132,6 +132,7 @@ header{
     margin-right: 190px;
 }
 
+
 #slog {
     text-align: center;
     font-size: 50px;
@@ -141,6 +142,7 @@ header{
     margin-right: auto;
     margin-left: auto;
 }
+
 
 #slog svg path{
     position: absolute;
@@ -430,7 +432,7 @@ fieldset legend {
     /* Modal Content */
     
     .modal-content {
-        background-color: #ffd166;
+        background-color: #FFD166;
         margin: auto;
         padding: 30px;
         border: 1px solid #888;
