@@ -11,6 +11,8 @@
 
 - Fatima Ramadan : a Software Engineering , I Joined this course  to develop a Career in Software Development.
 
+- Mohammad Hasouneh : Graduated form royal flight as airline pilot born and live in Jordan looking to get certificate in software development from this great institution. 
+
 
 ## Description of the website: 
 
