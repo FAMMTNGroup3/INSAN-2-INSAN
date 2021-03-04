@@ -11,8 +11,6 @@
 
 - Fatima Ramadan : a Software Engineering , I Joined this course  to develop a Career in Software Development.
 
-- Moneeb Tawfeek : I am a pharmacist , I like software development  and looking to merge it with my medical field.
-
 
 ## Description of the website: 
 
