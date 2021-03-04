@@ -112,9 +112,9 @@ header nav div {
     padding-top: 25px;
     color: #F5CA32;
     float: left;
-    /* display: inline-block; */
     padding: 20px;
 }
+
 #insan1{
     margin-top: 5px;
     float:left;
@@ -173,11 +173,15 @@ header{
 }
 
 #slog {
+    text-align: center;
     font-size: 50px;
     font-family: 'Loved by the King', cursive ;
     background-color: #119DA4 ;
-  
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 #slog svg {
     position: absolute; 

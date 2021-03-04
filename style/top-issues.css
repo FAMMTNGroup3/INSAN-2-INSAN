@@ -23,7 +23,7 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     float: right;
     font-size: 10px;
     margin-right: 25px;
@@ -40,7 +40,7 @@ header nav div {
     font-family: 'Modak', cursive;
     font-size: 35px;
     letter-spacing: 3px;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     color: #F5CA32;
     float: left;
     /* display: inline-block; */
@@ -61,9 +61,6 @@ header nav div {
     font-weight: bold;
 }
 
-#logoimg {
-    margin-top: -20px;
-}
 
 footer #insan1 {
     margin-top: 5px;
@@ -102,11 +99,15 @@ header{
 }
 
 #slog {
+    text-align: center;
     font-size: 50px;
     font-family: 'Loved by the King', cursive ;
     background-color: #119DA4 ;
-  
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 #slog svg {
     position: absolute; 
@@ -304,7 +305,7 @@ body div h2 {
 /* Modal Content */
 
 .modal-content {
-    background-color: #ffd166;
+    background-color: #FFD166;
     margin: auto;
     padding: 30px;
     border: 1px solid #888;
