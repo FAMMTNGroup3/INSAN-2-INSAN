@@ -23,7 +23,7 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    /* margin-top: 30px; */
+    margin-top: 30px;
     float: right;
     font-size: 10px;
     margin-right: 25px;
@@ -40,7 +40,7 @@ header nav div {
     font-family: 'Modak', cursive;
     font-size: 35px;
     letter-spacing: 3px;
-    /* padding-top: 25px; */
+    padding-top: 25px;
     color: #F5CA32;
     float: left;
     /* display: inline-block; */
