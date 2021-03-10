@@ -3,6 +3,7 @@
 
 
 <head>
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,8 +29,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <title>Insan-2-Insan</title>
-    <link rel="stylesheet" href="style/reset.css">
+
     <link rel="stylesheet" href="../style/all-org.css">
+    <link rel="stylesheet" href="../style/style.css">
 
 </head>
 
@@ -74,56 +76,46 @@
 
 
 
-        <form id="organizationsForm">
+        <form id="in-need">
             <fieldset>
-                <form id="in-need">
-                    <label for="typeOfNeed">Type Of Need</label><br>
-                    <select name="typeOfNeed" id="typeOfNeed">
-                        <option value="education"> Education </option>
-                        <option value="health"> Health </option>
-                        <option value="WASH"> Water, Sanitation and Hygiene (WASH) </option>
-                        <option value="shelter"> Shelter </option>
-                        <option value="Livelihood"> Livelihood </option>
-                        <option value="Children Services"> Children Support</option>
-                    </select>
+                <label for="typeOfNeed">Type Of Need</label><br><br>
+                <select name="typeOfNeed" id="typeOfNeed">
+                    <option value="education"> Education </option>
+                    <option value="health"> Health </option>
+                    <option value="WASH"> Water, Sanitation and Hygiene (WASH) </option>
+                    <option value="shelter"> Shelter </option>
+                    <option value="Livelihood"> Livelihood </option>
+                    <option value="Children Services"> Children Support</option>
+                </select>
 
-                    <br>
-                    <br>
+                <br>
+                <br>
 
-                    <label for="phone">Enter your phone number</label><br>
-                    <input type="tel" id="phone" name="phone">
+                <label for="phone">Enter your phone number</label><br><br>
+                <input type="tel" id="phone" name="phone">
 
-                    <br>
-                    <br>
+                <br>
+                <br>
 
-                    <label for="description"> Describe your need </label><br>
-                    <textarea for="description" id="description" rows="5" cols="50" name="description"> </textarea>
+                <label for="description"> Describe your need </label><br><br>
+                <textarea for="description" id="description" rows="5" cols="50" name="description"> </textarea>
 
-                    <br>
-                    <br>
-
-                    <input type="checkbox" id="agree" name="agree" value="agree" required="yes">
-                    <label for="agree" style="text-align: center;"> I agree to all terms and conditions and I guarantee
-                        all my information are true.</label>
-
-                    <br>
-                    <br>
+                <br>
+                <br>
 
 
+                <input type="checkbox" id="agree" name="agree" value="agree" required="yes">
+                <label for="agree" style="text-align: center;"> I agree to all terms and conditions and I guarantee
+                    all my information are true.</label>
 
+                <input type="submit" value="Submit" id="submit">
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <p>We are here to help <br /> please check the list below !</p>
+                        <span class="close"><img id="heart" src="../img/heart-icon-y1k.png" style="width: 50px"></span>
 
-                    <br>
-                    <br>
-
-                    <input type="submit" value="Submit" id="submit">
-                    <div id="myModal" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <p>We are here to help <br /> please check the list below !</p>
-                            <span class="close"><img id="heart" src="../img/heart-icon-y1k.png"
-                                    style="width: 50px"></span>
-
-                        </div>
+                    </div>
 
             </fieldset>
 
