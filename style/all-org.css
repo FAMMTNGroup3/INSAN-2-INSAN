@@ -40,6 +40,7 @@
     font-family: 'Handlee', cursive;
     font-weight: bold;
     font-size: 23px;
+    margin-top: 6%;
 }
 
 nav {
@@ -120,31 +121,27 @@ footer #logoimg {
     margin-top: -20px;
 }
 
-
-header{
+header {
     position: relative;
     width: 100%;
 }
 
-
-#happiness{
+#happiness {
     margin-left: auto;
     margin-right: 190px;
 }
 
-
 #slog {
     text-align: center;
     font-size: 50px;
-    font-family: 'Loved by the King', cursive ;
-    background-color: #119DA4 ;
+    font-family: 'Loved by the King', cursive;
+    background-color: #119DA4;
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
 }
 
-
-#slog svg path{
+#slog svg path {
     position: absolute;
 }
 
@@ -158,14 +155,13 @@ main p {
 #organizationsForm {
     width: 90%;
     box-shadow: 10px 10px 5px #ceceb6;
- 
     border-style: solid;
     border-radius: 20px;
     text-align: center;
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#ceecee;
+    background-color: #ceecee;
     border-color: #ceecee;
 }
 
@@ -290,13 +286,11 @@ fieldset legend {
 }
 
 .inNeed {
-    font-size: 25px;
-    
     font-family: 'Handlee', cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2%;
 }
-
-
-
 
 #availableOrg li p {
     padding: 10px;
@@ -393,101 +387,95 @@ fieldset legend {
     }
 }
 
-.p1{
-
+.p1 {
     font-family: 'Handlee', cursive;
     font-size: 25px;
     text-align: center;
-    
+    margin-bottom: 2%;
 }
 
 
 /*popmessage 
     /* The Modal (background) */
 
-    .modal {
-        display: none;
-        /* Hidden by default */
-        position: fixed;
-        /* Stay in place */
-        z-index: 1;
-        /* Sit on top */
-        padding-top: 100px;
-        /* Location of the box */
-        left: 0;
-        top: 0;
-        width: 100%;
-        /* Full width */
-        height: 100%;
-        /* Full height */
-        overflow: auto;
-        /* Enable scroll if needed */
-        background-color: rgb(0, 0, 0);
-        /* Fallback color */
-        background-color: rgba(0, 0, 0, 0.4);
-        /* Black w/ opacity */
-    }
-    
-    
-    /* Modal Content */
-    
-    .modal-content {
-        background-color: #FFD166;
-        margin: auto;
-        padding: 30px;
-        border: 1px solid #888;
-        width: 50%;
-        height: 25%;
-        font-family: 'Loved by the King', cursive;
-        font-size: 40px;
-        border-radius: 20px;
-    }
-    
-    .modal-content span {
-        /* display: block; */
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        
-    }
-    
-
-    footer {
-        margin-bottom: -100px;
-    }
-    
-    
-    /* The Close Button */
-    
-    .close {
-        color: #aaaaaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-    
-    .close:hover,
-    .close:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-    }
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
 
 
+/* Modal Content */
 
-#in-need{
+.modal-content {
+    background-color: #FFD166;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 25%;
+    font-family: 'Loved by the King', cursive;
+    font-size: 40px;
+    border-radius: 20px;
+}
 
+.modal-content span {
+    /* display: block; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+footer {
+    margin-bottom: -100px;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#in-need {
     width: 90%;
     box-shadow: 10px 10px 5px #ceceb6;
- 
     border-style: solid;
     border-radius: 20px;
     text-align: center;
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#ceecee;
+    margin-top: 5%;
+    background-color: #ceecee;
     border-color: #ceecee;
 }
 
@@ -495,14 +483,6 @@ fieldset legend {
     font-size: 20px;
     margin: 50px;
 }
-
-
-
-
-
-
-
-
 
 .social {
     height: 5px;

@@ -1,7 +1,6 @@
 .mySlides {
-     display: none;
+    display: none;
 }
-
 
 .containheder {
     position: relative;
@@ -59,44 +58,40 @@ header nav div {
     margin-top: -20px;
 }
 
-footer #insan2{
+footer #insan2 {
     margin-top: 5px;
-    float:right;
+    float: right;
     color: #F5CA32;
     font-family: 'Loved by the King', cursive;
     font-weight: bold;
     font-size: 30px;
 }
 
-footer #insan1{
+footer #insan1 {
     margin-top: 5px;
-    float:left;
+    float: left;
     font-family: 'Loved by the King', cursive;
     font-weight: bold;
     font-size: 30px;
     color: #F5CA32;
 }
-
 
 nav {
     background-color: #119DA4;
-    height: 90px;
+    height: 79px;
 }
-
 
 .w3-content {
     z-index: 1;
     width: 90%;
-    margin-left: 40px;
-    height: 2%;
-    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
 }
 
 .w3-content img {
     height: 520px;
 }
-
-
 
 #heart {
     -webkit-animation: swing 1s;
@@ -159,15 +154,22 @@ nav {
     }
 }
 
-#mainPa1 {
-    margin-top: 30px;
+.mainPa1 {
+    padding: 1%;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.486) 30px 20px 10px;
+    background-color: rgba(253, 253, 253, 0.856);
+    text-align: center;
+    left: 190px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
     width: 75%;
-    font-family: 'Loved by the King', cursive;
-    font-weight: bold;
-    line-height: 40px;
-    margin-bottom: 80px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5%;
+    font-weight: bolder;
+    line-height: 50px;
 }
-
 
 .imgeclass {
     margin-top: 30px;
@@ -181,6 +183,8 @@ nav {
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+    opacity: .9;
+    border-radius: 15%;
 }
 
 #title {
@@ -204,63 +208,47 @@ header nav {
     text-align: right;
     font-size: 25px;
     margin: top 2px;
-    padding: 10px;
     /* margin-bottom: 30px; */
     width: 100%;
 }
 
-header{
+header {
     position: relative;
     width: 100%;
 }
 
-#happiness{
+#happiness {
+    width: 50%;
     margin-left: auto;
-    margin-right: 190px;
+    margin-right: auto;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
 }
-
 
 #slog {
     text-align: center;
     font-size: 50px;
-    font-family: 'Loved by the King', cursive ;
-    background-color: #119DA4 ;
+    font-family: 'Loved by the King', cursive;
+    background-color: #119DA4;
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
 }
 
-
 #slog svg {
-    position: absolute; 
-}
-
-
-.mainParg {
-    margin-left: 140px;
-    font-size: 20px;
-    height: 70px;
-    width: 100%;
-    font-family: 'Handlee', cursive;
-  
+    position: absolute;
 }
 
 body {
     background-color: white;
 }
 
-
 canvas {
-
-    width: 60% !important;
-    height: 45% !important;
+    width: 65% !important;
+    height: 60% !important;
     display: inline-block;
-    margin-top: 290px !important;
+    margin-top: 2% !important;
     margin-bottom: 50px !important;
-   
-    
 }
 
 #Statics {
@@ -272,10 +260,10 @@ canvas {
     text-align: center;
 }
 
-
 #main2 {
-    margin-top: 150px;
-    margin-left: 150px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: auto;
     font-size: large;
     width: 25%;
     font-family: 'Handlee', cursive;
@@ -285,7 +273,6 @@ canvas {
     float: left;
     text-align: center;
 }
-
 
 .social {
     height: 5px;
@@ -404,7 +391,6 @@ a {
     position: relative;
 }
 
-
 .footer-call-to-action-title {
     color: #FFFFF2;
     font-size: 14px;
@@ -515,14 +501,12 @@ a {
     font-weight: 400;
     line-height: 18px;
     margin-bottom: 0;
-
 }
 
 .footer-copyright-link {
     color: #fff;
     text-decoration: none;
 }
-
 
 .footer-content {
     margin-left: auto;
@@ -532,15 +516,14 @@ a {
     position: relative;
 }
 
-    .footer-wave-svg {
-        height: 50px;
-    }
-    .footer-content-column {
-        width: 24.99%;
-    }
+.footer-wave-svg {
+    height: 50px;
+}
 
+.footer-content-column {
+    width: 24.99%;
+}
 
-    div.footer-content {
-        padding-bottom: 250px;
-
-    }
+div.footer-content {
+    padding-bottom: 250px;
+}
